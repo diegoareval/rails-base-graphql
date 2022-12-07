@@ -11,6 +11,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'pg_lock'
 gem 'graphql'
 gem 'nokogiri', '~> 1.10.10'
+gem 'rest-client'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

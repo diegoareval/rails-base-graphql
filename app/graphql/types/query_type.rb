@@ -7,6 +7,9 @@ module Types
       argument :cached, Boolean, required: false, default_value: true
     end
 
+    field :rockets, resolver: Queries::FetchRockets
+
+
     def user(id:, cached:)
       User::Cache.new('arron', 'arrontaylor')
     end
